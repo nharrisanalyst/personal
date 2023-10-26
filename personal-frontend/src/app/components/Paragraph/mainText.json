@@ -1,0 +1,28 @@
+[
+    {
+        "text":"Pixel Perfect",
+        "size":"5em"
+    },
+    {
+        "text":"UI",
+        "size":"5em",
+        "color":"#f9009e",
+        "strong":true
+    },
+    {
+        "text":"and",
+        "size":"5em",
+        "lineBreak":true
+    },
+    {
+        "text":"Data Visualization",
+        "size":"5em",
+        "lineBreak":true,
+        "color":"#007dff",
+        "strong":true
+    },
+    {
+        "text":"Engineering.",
+        "size":"5em"
+    }
+]
