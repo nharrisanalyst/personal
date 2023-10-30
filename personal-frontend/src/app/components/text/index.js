@@ -7,11 +7,13 @@ export const Text =({
      children, 
      strong = false,
      size = "1.5em", 
-     lineBreak = false 
+     lineBreak = false,
+     fontWeight = 500, 
     }) =>{
     const styles = {
         color,
-        fontSize:size
+        fontSize:size,
+        fontWeight
     }
     if(strong){
         return (

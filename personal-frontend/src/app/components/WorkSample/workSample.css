@@ -1,0 +1,23 @@
+.work-sample {
+    width: 284px;
+    height:364px;
+    display:flex;
+    flex-direction: column;
+    position: unset !important;
+    gap: 10px;
+}
+.work-sample-image{
+    flex:10;
+    overflow: hidden;
+    position: relative;
+    border-radius: 25px 25px 25px 25px;
+    
+}
+
+.work-sample-text{
+    flex: 2;
+    flex-direction: column;
+    display:flex;
+    gap:2px;
+}
+

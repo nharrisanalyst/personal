@@ -1,15 +1,22 @@
 import PropTypes from 'prop-types';
 import Image from 'next/image';
 import {Text} from "../Text";
+import "./workSample.css"
 
 
 
 export const WorkSample =({title="", description="", imageSrc=""}) =>(
-    <>
-    <Image src={imageSrc} width={72} height={16}></Image>
-    <Text string={true} >{title}</Text>
-    <Text>{description}</Text>
-    </>
+    <div className='work-sample' >
+    <div className='work-sample-image'>
+    <Image src={imageSrc}
+           fill={true}
+    />
+    </div>
+    <div className='work-sample-text'>
+    <Text strong={true} >{title}</Text>
+    <Text fontWeight={300}>{description}</Text>
+    </div>
+    </div>
 )
 
 
