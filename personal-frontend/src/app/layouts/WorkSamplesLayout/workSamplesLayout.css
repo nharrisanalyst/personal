@@ -1,0 +1,10 @@
+.work-sample-layout-title{
+    margin-bottom: 16px;
+}
+
+
+.work-sample-layout-work{
+    display: flex;
+    gap:64px;
+    margin-left: 24px;
+}

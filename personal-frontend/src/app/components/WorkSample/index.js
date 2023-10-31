@@ -5,7 +5,7 @@ import "./workSample.css"
 
 
 
-export const WorkSample =({title="", description="", imageSrc="", anchorURL="www.example.com"}) =>(
+export const WorkSample =({title="", description="", imageSrc="", anchorURL="https://www.example.com"}) =>(
     <a className ="work-sample-anchor" href = {anchorURL} >
     <div className='work-sample' >
     <div className='work-sample-image'>
