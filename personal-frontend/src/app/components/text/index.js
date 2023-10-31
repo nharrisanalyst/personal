@@ -8,7 +8,7 @@ export const Text =({
      strong = false,
      size = "1.5em", 
      lineBreak = false,
-     fontWeight = 500, 
+     fontWeight = "normal", 
     }) =>{
     const styles = {
         color,
