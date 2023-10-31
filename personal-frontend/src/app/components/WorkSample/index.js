@@ -5,7 +5,8 @@ import "./workSample.css"
 
 
 
-export const WorkSample =({title="", description="", imageSrc=""}) =>(
+export const WorkSample =({title="", description="", imageSrc="", anchorURL="https://www.example.com"}) =>(
+    <a className ="work-sample-anchor" href = {anchorURL} >
     <div className='work-sample' >
     <div className='work-sample-image'>
     <Image src={imageSrc}
@@ -17,11 +18,13 @@ export const WorkSample =({title="", description="", imageSrc=""}) =>(
     <Text fontWeight={300}>{description}</Text>
     </div>
     </div>
+    </a>
 )
 
 
 WorkSample.propTypes = {
     title: PropTypes.string,
     description: PropTypes.string,
-    imageSource: PropTypes.string
+    imageSource: PropTypes.string,
+    anchorURL:PropTypes.string
 }
