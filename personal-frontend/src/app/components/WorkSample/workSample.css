@@ -1,10 +1,13 @@
+.work-sample-anchor{
+    text-decoration:none;
+}
 .work-sample {
     width: 284px;
     height:364px;
     display:flex;
     flex-direction: column;
     position: unset !important;
-    gap: 10px;
+    gap: 5px;
 }
 .work-sample-image{
     flex:10;
