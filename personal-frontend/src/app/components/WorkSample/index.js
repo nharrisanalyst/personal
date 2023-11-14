@@ -15,7 +15,7 @@ export const WorkSample =({title="", description="", imageSrc="", anchorURL="htt
     </div>
     <div className='work-sample-text'>
     <Text strong={true} >{title}</Text>
-    <Text fontWeight={300}>{description}</Text>
+    <Text light={true} >{description}</Text>
     </div>
     </div>
     </a>
