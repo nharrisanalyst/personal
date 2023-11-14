@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import classNames from 'classnames'
 import './text.css';
 
 
@@ -9,7 +10,9 @@ export const Text =({
      size = "1.5em", 
      lineBreak = false,
      fontWeight = "normal", 
+     light = false,
     }) =>{
+    fontWeight = light?"100":fontWeight;
     const styles = {
         color,
         fontSize:size,
@@ -29,7 +32,7 @@ export const Text =({
     }
    return (
         <>
-        <span className="customText" style = {styles}>
+        <span className={classNames("customText", {'light-text':light})} style = {styles}>
         {children}
         </span>
         {lineBreak?<br/>:""}
@@ -44,6 +47,8 @@ Text.propTypes = {
     strong: PropTypes.bool,
     size: PropTypes.string,
     linebreak: PropTypes.bool,
+    fontweight:PropTypes.string,
+    light:PropTypes.bool,
 
 }
 

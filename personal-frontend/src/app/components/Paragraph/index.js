@@ -27,6 +27,7 @@ Paragraph.propTypes ={
             strong: PropTypes.bool,
             size: PropTypes.string,
             linebreak: PropTypes.bool,
+            light:PropTypes.bool,
         })
     )
 }

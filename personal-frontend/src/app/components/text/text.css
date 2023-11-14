@@ -1,8 +1,13 @@
 @import "~@fontsource/roboto";
 @import "~@fontsource/roboto/300.css";
+@import "~@fontsource/roboto/100.css"; 
 
 
 .customText{
     font-family: Roboto;
     font-weight: 300;
+}
+
+.customText.light{
+    font-weight: 100;
 }

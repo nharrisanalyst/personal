@@ -27,6 +27,13 @@ export const Strong = {
         strong:true
     }
 }
+
+export const Light = {
+    args:{
+        children:" Great UI Developer",
+        light:true
+    }
+}
 //size is in em
 export const BigSize = {
     args:{
