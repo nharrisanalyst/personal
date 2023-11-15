@@ -1,2 +1,22 @@
+.main-paig-main{
+    margin-left:150px;
+    margin-right:150px;
+    display:flex;
+    flex-direction: column;
+}
 
- 
+.main-top-section{
+    display:flex;
+}
+
+.main-text-top{
+    flex:8;
+}
+
+.main-resume-link{
+    flex:4;
+    width:100%;
+    display:flex;
+    justify-content: flex-start;
+    align-self: flex-end;
+}
