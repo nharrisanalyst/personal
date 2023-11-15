@@ -9,4 +9,12 @@ export default{
 
 export const Primary ={
     args:{},
+    parameters: {
+        backgrounds: {
+        default: 'main',
+        values: [
+          { name: 'main', value: '#efefef' },
+        ],
+        }
+    }
 }

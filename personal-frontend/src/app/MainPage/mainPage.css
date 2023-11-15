@@ -3,10 +3,12 @@
     margin-right:150px;
     display:flex;
     flex-direction: column;
+    gap:48px;
 }
 
 .main-top-section{
     display:flex;
+    
 }
 
 .main-text-top{

@@ -1,6 +1,7 @@
 .main-header{
     width: 100%;
     display:flex;
+    background: white;
 }
 
 .my-name{
