@@ -1,0 +1,42 @@
+.main-paig-main{
+    margin-left:150px;
+    margin-right:150px;
+    display:flex;
+    flex-direction: column;
+    gap:48px;
+}
+
+.main-top-section{
+    padding-top:84px;
+    display:flex;
+    
+}
+
+.main-text-top{
+    flex:8;
+}
+
+.main-resume-link{
+    flex:4;
+    width:100%;
+    display:flex;
+    justify-content: flex-start;
+    align-self: flex-end;
+}
+
+.work-sample-section{
+    padding-top:48px;
+}
+
+.contact-info{
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: .8em;
+    padding-top: 96px;
+}
+
+.contact-info-email{
+    margin-left:24px;
+    padding-top:4px;
+    padding-bottom:84px;
+}
