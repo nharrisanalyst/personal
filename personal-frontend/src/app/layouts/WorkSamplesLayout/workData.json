@@ -1,14 +1,16 @@
 [
     {
-        "title":"Work Sample",
-        "description": "Description of the Work this can be two lines!",
-        "imageSrc":"/images/sample-pic.png"
+        "title":"NYC Interactive",
+        "description": "NYC Interactive Neighborhoods.",
+        "imageSrc":"/images/NYC_Neighborhoods.png",
+        "anchorURL":"https://nharrisanalyst.github.io/New_York_City_Neighborhoods/"
 
     },
     {
-        "title":"Work Sample",
-        "description": "Description of the Work this can be two lines!",
-        "imageSrc":"/images/sample-pic.png"
+        "title":"Interact with Hapiness",
+        "description": "SPA Dashboard of Happiness Data.",
+        "imageSrc":"/images/interact-with-happiness.png",
+        "anchorURL":"https://nharrisanalyst.github.io/interact_with_happiness/"
 
     },
     {
