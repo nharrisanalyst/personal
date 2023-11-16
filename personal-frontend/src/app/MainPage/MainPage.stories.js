@@ -10,6 +10,7 @@ export default{
 export const Primary ={
     args:{},
     parameters: {
+        layout: 'fullscreen',
         backgrounds: {
         default: 'main',
         values: [
