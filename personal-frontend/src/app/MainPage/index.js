@@ -27,6 +27,14 @@ export const MainPage =()=>(
             <div className='work-sample-section'>
                 <WorkSamplesLayout sampleWorkData={workData} />
             </div>
+            <div className="contact-info">
+                <div className='contact-info-contact'>
+                    Contact
+                </div>
+                <div className='contact-info-email'>
+                    nharrisanalyst@gmail.com
+                </div>
+            </div>
         </div>
     </>
 )
