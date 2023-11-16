@@ -1,26 +1,30 @@
 [
     {
-        "title":"Work Sample",
-        "description": "Description of the Work this can be two lines!",
-        "imageSrc":"/images/sample-pic.png"
+        "title":"NYC Interactive",
+        "description": "NYC Interactive Neighborhoods.",
+        "imageSrc":"/images/NYC_Neighborhoods.png",
+        "anchorURL":"https://nharrisanalyst.github.io/New_York_City_Neighborhoods/"
 
     },
     {
-        "title":"Work Sample",
-        "description": "Description of the Work this can be two lines!",
-        "imageSrc":"/images/sample-pic.png"
+        "title":"Interact with Hapiness",
+        "description": "SPA Dashboard of Happiness Data.",
+        "imageSrc":"/images/interact-with-happiness.png",
+        "anchorURL":"https://nharrisanalyst.github.io/interact_with_happiness/"
 
     },
     {
-        "title":"Work Sample",
-        "description": "Description of the Work this can be two lines!",
-        "imageSrc":"/images/sample-pic.png"
+        "title":"JP Morgan Savings",
+        "description": "A savings tool spa with visualizations.",
+        "imageSrc":"/images/saving_tool.png",
+        "anchorURL":"https://www.jpmorganchase.com/institute/data-viz/data-viz-healthcare.htm?&max=900"
 
     },
     {
-        "title":"Work Sample",
-        "description": "Description of the Work this can be two lines!",
-        "imageSrc":"/images/sample-pic.png"
+        "title":"This Personal Page",
+        "description": "My Designs, Storybook, and Github.",
+        "imageSrc":"/images/this_page.png",
+        "anchorURL":"/this_page"
 
     }
 ]
